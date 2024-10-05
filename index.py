@@ -70,3 +70,10 @@ while(1):
         break
     
 cv2.destroyAllWindows()
+
+
+"""argparse: Used to handle command-line arguments."""
+"""clicked: A flag to indicate whether the user has clicked on the image."""
+"""computes the distance (d) between the input RGB values (R, G, B) and each row in the CSV file using Manhattan distance 
+(sum of absolute differences).The color with the smallest distance (minimum) is selected, and its name (cname) is returned."""
+"""draw_function: is a callback function triggered when the user double-clicks on the image."""

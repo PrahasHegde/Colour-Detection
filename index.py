@@ -12,7 +12,7 @@ img_path = args['image']
 #Reading the image with opencv
 img = cv2.imread(img_path)
 
-#declaring global variables (are used later on)
+#declaring global variables
 clicked = False
 r = g = b = xpos = ypos = 0
 
